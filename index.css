@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.toggle{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+.rectangle{
+
+width: 30px;
+height: 3px;
+background-color: white;
+}
+
+.milieu{
+    display: flex;
+    gap: 1rem;
+       
+    justify-content: center;
+    font-size: x-small;
+    align-items: center;
+}
+.fleche_down{
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: medium;
+}
+.FORn{
+    display: flex;
+    gap: 9px;
+    justify-content: center;
+    align-items: center;
+}
+
+.zero{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: -1rem;
+}
+
+.section1{
+    background-image:url("./assets/Rectangle\ 1441.png") ;
+     background-size: cover;       /* Remplit toute la section */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    background-position: center;  /* Centre l'image */
+    height: 60rem;
+    
+}
+.navbar{
+    color: aliceblue;
+        PADDING: 1rem 2rem;
+}
+.milieuu{
+    display: flex;
+    justify-content: center;
+        color: aliceblue;
+        font-size: x-large;
+}
+.bagg{
+    display: flex;
+    padding-right: 3rem;
+}
+.bagg img{
+    width: 39px;
+    height: 44px;
+}
+
+.seachmaman input{
+    color: white;
+    justify-content: center;
+    display: flex;
+    justify-self: center;
+    border-radius: 19px;
+    width: 17rem;
+    height: 2rem;
+        background-color: grey;
+    opacity: 0.5;
+    border: 1px solid white;
+}
+
+.seachmaman{
+    display: flex;
+    justify-content: center;
+}
+.search{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -2.1rem;
+    top: 0.12rem;
+}
+
+
+
+@media screen and (max-width: 685px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        right: -141%; 
+        width: 100%;
+        height: 100vh;
+        padding: 2rem;
+        justify-content: center;
+        gap: 2rem;
+        transition: right 0.5s ease-in-out;
+        z-index: 999;
+    }
+
+    .navbar.show {
+        right: 0;
+    }
+
+    .toggle {
+        position: fixed; /* Pour rester en haut même quand navbar s'affiche */
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+        
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .milieu {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .seachmaman {
+        display: none;
+    }
+
+    .bagg {
+        justify-content: center;
+        padding: 0;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    .toggle {
+        display: none;
+    }
+}
