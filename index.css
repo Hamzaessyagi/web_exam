@@ -1,6 +1,5 @@
-@font-face {
-  font-family: 'Beatrice Deck Trial';
-  src: url('./fonts/BeatriceDeckTrial.otf') format('opentype');
+body{
+  background-color: rgb(243, 241, 235);
 }
 
 
