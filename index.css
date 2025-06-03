@@ -353,7 +353,7 @@ footer{
     font-size: 12px;
   }
     .sec5 {
-    margin-top: 2rem; /* moins d'espace sur petits écrans */
+    margin-top: 2rem; 
     padding: 0 1rem;
   }
 
@@ -376,6 +376,10 @@ footer{
 
   .d {
     margin-top: 2rem;
+  }
+  .foot{
+    display: flex;
+    flex-direction: column;
   }
 }
 
