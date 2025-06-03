@@ -101,6 +101,76 @@
   background-color: #eee;
 }
 
+/* sec3*/
+.sec3{
+display: flex;
+flex-direction: column;
+}
+.er{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.eme{
+    display: flex;
+    justify-content: space-between;
+}
+.emm{
+    display: flex;
+    gap: 11%;
+}
+.butt{
+    display: flex;
+    position: relative;
+    top: 6%;
+    right: -47rem;
+    gap: 1%;
+}
+
+/*page4*/
+.kid{
+    display: flex;
+    gap: 1rem;
+}
+.filtre{
+    display: flex;
+    gap: 3rem;
+}
+.v img{
+    width: 19rem;
+    height: 19rem;
+}
+
+
+/*page5*/
+
+.tx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tx p {
+    text-align: center;
+}
+.pos{
+    display: flex;
+    justify-content: space-between;
+}
+.d{
+   margin-top: 3rem; 
+}
+
+
+/* page 6*/
+footer{
+    margin-top: 9rem;
+    display: flex;
+}
+.s{
+    margin-top: 5rem;
+}
+
 
 
 
