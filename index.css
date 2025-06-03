@@ -189,6 +189,24 @@ flex-direction: column;
     gap: 1%;
     margin-top: 3rem;
 }
+.butt button:hover {
+    background-color: #333;
+    color: white;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+.butt:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease;
+}
+.go-to-shop:hover{
+    background-color: #333;
+    color: white;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+
 
 /*page4*/
 .kid{
