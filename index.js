@@ -1,8 +1,6 @@
-document.addEventListener("DOMContentLoaded", function () {
-        const hamburger = document.getElementById("hamburger");
-        const toggles = document.querySelectorAll(".toggle-item");
+  const hamburger = document.querySelector('.hamburger');
+  const menu = document.querySelector('.menu');
 
-        hamburger.addEventListener("click", function () {
-            toggles.forEach(el => el.classList.toggle("active"));
-        });
-    });
+  hamburger.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
